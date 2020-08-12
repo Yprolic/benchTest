@@ -1,0 +1,10 @@
+# 输入文件 每行是一个输入Json
+Input="test.dat"
+# 错误日志 记录超时或处理失败的Query
+ErrorLog="error.log"
+# 并发数
+User=1
+# 超时 ms单位
+Timeout=10
+# 目标url
+Url="http://127.0.0.1:8360/test"
